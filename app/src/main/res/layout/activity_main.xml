@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/colorPrimary">
+
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/myRestaurantsIcon"
+    android:src="@drawable/myrestaurants_icon_white"
+    android:scaleType="centerInside" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/foodImage_1"
+        android:src="@drawable/myrestaurants_food_pic"
+        android:scaleType="centerInside" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MyRestaurants!"
+        android:text="Welcome To Nairobi's Best Restaurant Finding App"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"/>
-    
-    <Button
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="15sp"
+        android:id="@+id/introText"/>
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find Restaurants"
-        android:id="@+id/button"
+        android:text="  Find Restaurants  "
+        android:id="@+id/findRestaurantsButton"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="20sp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
 
 </RelativeLayout>

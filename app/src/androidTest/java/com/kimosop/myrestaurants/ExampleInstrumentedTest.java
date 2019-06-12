@@ -1,5 +1,6 @@
 package com.kimosop.myrestaurants;
 
+
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
@@ -21,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.kimosop.myrestaurants", appContext.getPackageName());
+        assertEquals("io.github.vinge1718.restaurant", appContext.getPackageName());
     }
 }

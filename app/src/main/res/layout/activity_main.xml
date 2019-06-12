@@ -7,7 +7,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/myRestaurantsIcon"
-    android:src="@drawable/myrestaurants_icon_white"
+    android:src="@drawable/my_restaurants_icon_resized"
     android:scaleType="centerInside" />
 
     <ImageView
@@ -24,10 +24,10 @@
         android:text="Welcome To Nairobi's Best Restaurant Finding App"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="230dp"
         android:textColor="@color/colorTextIcons"
         android:textSize="15sp"
-        android:id="@+id/introText"/>
+        android:id="@+id/appNameTextView" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         android:id="@+id/locationEditText"
         android:background="@color/colorTextIcons"
         android:layout_above="@+id/findRestaurantsButton"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:padding="5dp"
         android:hint="Enter Zip Code"
         android:layout_centerHorizontal="true" />
